@@ -21,5 +21,7 @@ print(math.pi) #파이값 출력
 print(math.sin(math.radians(30)))#sin 30도 출력.
 
 import random
-for in range(5):
-
+for i in range(5):
+    print(random.randint(1,10)) #1~10정수 난수 출력합니다
+for i in range(7):
+    print(random.random()) #7개의 난수 출력합니다.
