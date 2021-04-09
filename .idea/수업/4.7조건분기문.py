@@ -17,15 +17,15 @@ for i in range(4):
     t.forward(200)
 def decision(x,y):
     t.penup()
-    t.goto(0,0)
+    t.goto(x-10,y-10)
     t.pendown()
     if 100>=x>=-100 and 100>=y>=-100:
 
         t.pencolor("Blue")
-        t.circle(5)
+        t.circle(20)
     else:
         t.pencolor("Red")
-        t.circle(5)
+        t.circle(20)
 
 
 
