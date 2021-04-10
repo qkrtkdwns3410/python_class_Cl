@@ -19,6 +19,7 @@ def decision(x,y):
     t.penup()
     t.goto(x-10,y-10)
     t.pendown()
+
     if 100>=x>=-100 and 100>=y>=-100:
 
         t.pencolor("Blue")
